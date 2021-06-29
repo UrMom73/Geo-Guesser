@@ -41,7 +41,7 @@ function geoGuesser(city,country) {
     }else if(city == 'rio de jenero' && country == 'brazil') {
       console.log("The correct spelling's Rio de Janeiro, but I'll give this one to you :)");
     }else if(city == 'rio' && country == 'brazil') {
-      score-0.5
+      score-=0.5
       console.log("The city's name is Rio de Janeiro, not just Rio >:( I'll give you half a point tho :)");
     }else {
       score--
